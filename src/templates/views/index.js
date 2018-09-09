@@ -1,1 +1,1 @@
-// do something
+import './index.scss'

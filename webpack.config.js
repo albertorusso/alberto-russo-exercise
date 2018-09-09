@@ -29,5 +29,17 @@ module.exports = {
             template: './src/templates/views/index.html',
             filename: './index.html'
         })
-    ]
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.scss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
+            }
+        ]
+    },
 }
