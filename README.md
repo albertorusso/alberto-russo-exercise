@@ -46,9 +46,12 @@ Project is running at ```http://localhost:8080/``` or another port if ```8080```
 ## Folder structure
 
 All project files are inside ```/src``` folder.
-- ```/templates/views``` contains the HTML pages, for this exercise it is not necessary implement an HTML template engine.
+
+- ```/apps``` contains all react apps, for this exercise search-movies.
 
 - ```/styles``` contains the global.scss file and ```/settings``` folder to share all variables (e.g: colors and breakpoints) to all view and components.
+
+- ```/templates/views``` contains the HTML pages, for this exercise it is not necessary implement an HTML template engine.
 
 ## Further improvements
  - Implementation HTML template engine (e.g: [pug](https://www.npmjs.com/package/pug)) and refactoring the ```/templates``` folder in ```/templates/views``` and ```/templates/partial```
