@@ -1,0 +1,14 @@
+@import "../../../node_modules/normalize.css/normalize.css";
+@import "settings/variables";
+
+body {
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+.body-content {
+    min-height: 70vh;
+}

@@ -1,3 +1,54 @@
-.hello-world {
-    color: red;
+@import "../../styles/global";
+
+.header {
+    background: $background-header;
+    padding: 20px 10px;
+
+    &__h1 {
+        color: $color-text-header;
+        text-align: left;
+    }
+
+}
+
+.footer {
+    background: $background-footer;
+    text-align: left;
+
+    &__footnote {
+        color: $color-text-footer;
+        font-style: italic;
+        font-size: 0.8em;
+        padding: 30px 10px;
+    }
+
+}
+
+
+// tablet version
+@media (min-width: #{map-get($grid-breakpoints, 'sm')}) {
+    .header {
+
+        &__h1 {
+            text-align: center;
+        }
+
+    }
+
+    .footer {
+        background: none;
+        border-top: 1px solid $background-footer;
+        text-align: center;
+
+        &__footnote {
+            font-size: 1em;
+            padding: 60px 10px;
+        }
+
+    }
+}
+
+// destop version
+@media (min-width: #{map-get($grid-breakpoints, 'md')}) {
+
 }
