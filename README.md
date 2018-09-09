@@ -29,7 +29,7 @@ You are expected to apply industry best practices and techniques such as:
 2. Install all dependency ```npm i```
 3. Run the server ```npm start```
 
-The exercise will be available at ```http://localhost:8080/```
+Project is running at ```http://localhost:8080/``` or another port if ```8080``` is already in use.
 
 ### It is also possible
 * ```npm run test``` run Unit tests
@@ -42,3 +42,11 @@ The exercise will be available at ```http://localhost:8080/```
 * React: build the UI exercise and all project functionalities.
 * Jest: Perfome Unit tests
 * SCSS with BEM syntax: Build the UI styles and Layout
+
+## Folder structure
+
+All project files are inside ```/src``` folder.
+- ```/templates/views``` contains the HTML pages, for this exercise it is not necessary implement an HTML template engine.
+
+## Further improvements
+ - Implementation HTML template engine (e.g: [pug](https://www.npmjs.com/package/pug)) and refactoring the ```/templates``` folder in ```/templates/views``` and ```/templates/partial```
