@@ -62,4 +62,6 @@ All project files are inside ```/src``` folder.
 - ```/test``` contains the list of tests and ```/fixtures``` folder contains the mock data for the Unit test
 
 ## Further improvements
- - Implementation HTML template engine (e.g: [pug](https://www.npmjs.com/package/pug)) and refactoring the ```/templates``` folder in ```/templates/views``` and ```/templates/partial```
+ - HTML: Implementation HTML template engine (e.g: [pug](https://www.npmjs.com/package/pug)) and refactoring the ```/templates``` folder in ```/templates/views``` and ```/templates/partial```
+ - CSS: implement a grid system to match UX and design
+ - REACT: implement storybook for components 
