@@ -49,9 +49,13 @@ All project files are inside ```/src``` folder.
 
 - ```/apps``` contains all react apps, for this exercise search-movies.
 
+- ```/scripts``` it is the folder that contains all scripts use to run the application
+
 - ```/styles``` contains the global.scss file and ```/settings``` folder to share all variables (e.g: colors and breakpoints) to all view and components.
 
 - ```/templates/views``` contains the HTML pages, for this exercise it is not necessary implement an HTML template engine.
+
+- ```/test``` contains the list of tests and ```/fixtures``` folder contains the mock data for the Unit test
 
 ## Further improvements
  - Implementation HTML template engine (e.g: [pug](https://www.npmjs.com/package/pug)) and refactoring the ```/templates``` folder in ```/templates/views``` and ```/templates/partial```

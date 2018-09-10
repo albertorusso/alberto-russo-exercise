@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // react
-import HelloWolrd from '../../apps/hello-world';
+import SearchMovieApp from '../../apps/search-movies-app';
 
 import './index.scss'
 
-
-
 ReactDOM.render(
-    <HelloWolrd />,
+    <SearchMovieApp />,
     document.getElementById('app')
 );
