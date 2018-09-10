@@ -49,9 +49,7 @@ Project is running at ```http://localhost:8080/``` or another port if ```8080```
 
 All project files are inside ```/src``` folder.
 
-- ```/apps``` contains all react apps, for this exercise search-movies.
-
-- ```/components``` components library that can be share cross different apps.
+- ```/react``` contains ```/apps``` and ```/components``` folders to build react apps.
 
 - ```/scripts``` it is the folder that contains all scripts use to run the application
 
@@ -64,4 +62,4 @@ All project files are inside ```/src``` folder.
 ## Further improvements
  - HTML: Implementation HTML template engine (e.g: [pug](https://www.npmjs.com/package/pug)) and refactoring the ```/templates``` folder in ```/templates/views``` and ```/templates/partial```
  - CSS: implement a grid system to match UX and design
- - REACT: implement storybook for components 
+ - REACT: implement storybook for components
