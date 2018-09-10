@@ -6,7 +6,7 @@ import ItemMovie from '../../components/search-movies/item-movie';
 import HeaderInfo from '../../components/search-movies/header-info';
 
 // import the move list client
-import MovieListApiClient from '../../scripts/MovieListApiClient';
+import MovieListApiClient from '../../../scripts/MovieListApiClient';
 
 // dependency injection
 const axios = require('axios');

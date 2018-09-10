@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // react
-import SearchMovieApp from '../../apps/search-movies-app';
+import SearchMovieApp from '../../react/apps/search-movies-app';
 
 import './index.scss'
 
