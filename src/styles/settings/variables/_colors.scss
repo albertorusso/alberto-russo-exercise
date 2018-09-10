@@ -5,6 +5,12 @@ $color-blue: #0076bc;
 $color-light-grey: #DDDDDD;
 $color-dark: #808080;
 
+// globals
+$border-color: $color-dark;
+
+$info-background: $color-dark;
+$color-text-info: $color-white;
+
 // Define header
 $background-header: $color-blue;
 $color-text-header: $color-white;

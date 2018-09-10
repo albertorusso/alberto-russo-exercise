@@ -36,18 +36,22 @@ Project is running at ```http://localhost:8080/``` or another port if ```8080```
 * ```npm run build``` build the ```/dist``` folder
 * ```npm run watch``` watch all files and recompile the project in case one of them change.
 
-### Technologies involved
+### Technologies involved / approach
 
 * Webpack: module bundler
 * React: build the UI exercise and all project functionalities.
 * Jest: Perfome Unit tests
 * SCSS with BEM syntax: Build the UI styles and Layout
+* Layout responsive: Mobile first approach using media query.
+* Componentisation and Single Responsibility Principle.
 
 ## Folder structure
 
 All project files are inside ```/src``` folder.
 
 - ```/apps``` contains all react apps, for this exercise search-movies.
+
+- ```/components``` components library that can be share cross different apps.
 
 - ```/scripts``` it is the folder that contains all scripts use to run the application
 

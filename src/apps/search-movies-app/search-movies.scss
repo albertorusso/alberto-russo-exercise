@@ -1,0 +1,56 @@
+@import "../../styles/settings/variables.scss";
+
+.search-movies {
+    margin: 20px 0;
+
+    &__form-container {
+        border-bottom: 1px solid $border-color;
+        text-align: center;
+    }
+
+    &__form-container,
+    &__info-container,
+    &__result-container {
+        padding: 0 0 20px;
+        margin: 0 0 20px;
+    }
+
+    &__input {
+        width: 200px;
+    }
+
+    &__no-results {
+        background: $info-background;
+        color: $color-text-info;
+        font-size: 1.2em;
+        padding: 30px 10px;
+        margin: 20px auto;
+        text-align: center;
+        width: 200px;
+    }
+
+}
+
+// tablet version
+@media (min-width: #{map-get($grid-breakpoints, 'sm')}) {
+    .search-movies {
+        margin: 40px 0;
+
+        &__form-container,
+        &__info-container,
+        &__result-container {
+            padding: 0 0 40px;
+            margin: 0 0 40px;
+        }
+
+        &__input {
+            width: 400px;
+        }
+
+    }
+}
+
+// destop version
+@media (min-width: #{map-get($grid-breakpoints, 'md')}) {
+
+}

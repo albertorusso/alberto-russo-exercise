@@ -1,0 +1,90 @@
+@import "../../../styles/settings/variables.scss";
+
+.item-movie {
+      border:1px solid $border-color;
+      padding: 10px;
+      margin: 0 0 20px;
+
+      &__title {
+          font-size: 1.2em;
+          margin: 0 0 10px;
+
+          &--desktop {
+              display: none;
+          }
+
+      }
+
+      &__poster {
+
+          img {
+              width: 100%;
+              height: auto;
+          }
+
+      }
+
+      &__release-date {
+          font-size: 0.7em;
+          font-style: italic;
+          text-align: right;
+      }
+
+      &__info {
+          margin: 10px 0;
+      }
+
+}
+
+
+// tablet version
+@media (min-width: #{map-get($grid-breakpoints, 'sm')}) {
+
+    .item-movie {
+        display: flex;
+
+        &__title {
+
+            display: none;
+
+            &--desktop {
+                display: block;
+            }
+        }
+
+        &__poster {
+            margin: 0 10px 0 0;
+
+            img {
+                width: 100px;
+                height: auto;
+            }
+
+        }
+
+    }
+
+}
+
+// destop version
+@media (min-width: #{map-get($grid-breakpoints, 'md')}) {
+
+    .item-movie {
+        padding: 30px;
+
+        &__info {
+            padding: 0 30px;
+        }
+
+        &__poster {
+
+            img {
+                width: 200px;
+                height: auto;
+            }
+
+        }
+
+    }
+
+}

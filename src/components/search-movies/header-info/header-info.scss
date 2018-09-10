@@ -1,0 +1,29 @@
+@import "../../../styles/settings/variables.scss";
+
+.search-info {
+
+    &__total-results {
+        margin: 0 0 10px;
+    }
+
+}
+
+// tablet version
+@media (min-width: #{map-get($grid-breakpoints, 'sm')}) {
+
+    .search-info {
+        align-items: baseline;
+        display: flex;
+
+        &__navigation {
+            margin: 0 0 0 40px;
+        }
+
+    }
+
+}
+
+// destop version
+@media (min-width: #{map-get($grid-breakpoints, 'md')}) {
+
+}

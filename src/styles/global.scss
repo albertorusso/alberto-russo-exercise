@@ -11,4 +11,24 @@ h1 {
 
 .body-content {
     min-height: 70vh;
+    padding: 0 10px;
+}
+
+// @import "../../../styles/settings/variables.scss";
+
+
+// tablet version
+@media (min-width: #{map-get($grid-breakpoints, 'sm')}) {
+    .body-content {
+        padding: 0 20px;
+    }
+}
+
+// destop version
+@media (min-width: #{map-get($grid-breakpoints, 'md')}) {
+    .body-content {
+        margin: 0 auto;
+        max-width: calc(100vw - 200px);
+        padding: 0;
+    }
 }
